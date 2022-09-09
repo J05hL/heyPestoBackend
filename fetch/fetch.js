@@ -37,7 +37,8 @@ const restructureObject = (obj) => {
   const newObj = {
     title, 
     image,
-    ingredients: ingredients
+    ingredients: ingredients,
+    price: `£10`
   }
 
   return newObj
